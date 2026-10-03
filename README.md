@@ -86,7 +86,7 @@ HeightWeightApp/
 └── .gitignore
 ⚙️ Installation
 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/HeightWeightApp.git
+git clone https://github.com/Vedantm10/HeightWeightApp.git
 2. Open the project folder
 cd HeightWeightApp
 3. Install dependencies
