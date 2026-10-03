@@ -1,0 +1,181 @@
+/* =====================================================
+   APP
+===================================================== */
+
+.stApp {
+    background:
+        radial-gradient(
+            circle at top left,
+            #172033 0%,
+            #0b1220 45%,
+            #080d18 100%
+        );
+}
+
+.block-container {
+    max-width: 1050px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.app-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: #f8fafc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.app-subtitle {
+    text-align: center;
+    color: #94a3b8;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.model-badge {
+    text-align: center;
+    color: #fb923c;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+/* =====================================================
+   CARD
+===================================================== */
+
+.card {
+    background:
+        linear-gradient(
+            145deg,
+            #1e293b,
+            #111827
+        );
+
+    border: 1px solid #374151;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    height: 290px;
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.25);
+
+    box-sizing: border-box;
+}
+
+
+/* =====================================================
+   CARD TITLE
+===================================================== */
+
+.card-title {
+    text-align: center;
+
+    color: #f1f5f9;
+
+    font-size: 80px;
+
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+.height-title {
+    color: #f8fafc;
+}
+
+/* =====================================================
+   HEIGHT
+===================================================== */
+
+.height-value {
+    text-align: center;
+
+    color: #fb923c;
+
+    font-size: 27px;
+
+    font-weight: 800;
+
+    margin-top: 7px;
+}
+
+
+/* =====================================================
+   PREDICTION
+===================================================== */
+
+.prediction {
+    text-align: center;
+
+    color: #fb923c;
+
+    font-size: 42px;
+
+    font-weight: 800;
+
+    margin-top: 10px;
+}
+
+.prediction-empty {
+    text-align: center;
+
+    color: #64748b;
+
+    font-size: 42px;
+
+    font-weight: 800;
+
+    margin-top: 10px;
+}
+
+.prediction-label {
+    text-align: center;
+
+    color: #94a3b8;
+
+    font-size: 13px;
+}
+
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+div.stButton > button {
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+div.stButton > button:hover {
+    border-color: #fb923c;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.footer {
+    text-align: center;
+
+    color: #64748b;
+
+    font-size: 13px;
+
+    margin-top: 30px;
+}
